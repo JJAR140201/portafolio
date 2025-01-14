@@ -111,131 +111,41 @@ export default function App() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
               <h3 className="text-xl font-bold mb-4">Frontend</h3>
-              <div className="space-y-4">
-                <div>
-                  <label className="block text-gray-700 font-bold">Angular</label>
-                  <div className="bg-gray-300 rounded-full h-4 overflow-hidden">
-                    <div className="bg-blue-500 h-4 rounded-full" style={{ width: '80%' }}></div>
-                  </div>
-                </div>
-                <div>
-                  <label className="block text-gray-700 font-bold">React</label>
-                  <div className="bg-gray-300 rounded-full h-4 overflow-hidden">
-                    <div className="bg-blue-500 h-4 rounded-full" style={{ width: '80%' }}></div>
-                  </div>
-                </div>
-                <div>
-                  <label className="block text-gray-700 font-bold">Vue.js</label>
-                  <div className="bg-gray-300 rounded-full h-4 overflow-hidden">
-                    <div className="bg-blue-500 h-4 rounded-full" style={{ width: '75%' }}></div>
-                  </div>
-                </div>
-                <div>
-                  <label className="block text-gray-700 font-bold">React Native</label>
-                  <div className="bg-gray-300 rounded-full h-4 overflow-hidden">
-                    <div className="bg-blue-500 h-4 rounded-full" style={{ width: '75%' }}></div>
-                  </div>
-                </div>
-              </div>
+              <ul className="list-disc list-inside text-gray-600">
+                <li>Angular - Intermedio</li>
+                <li>React - Intermedio</li>
+                <li>Vue.js - Intermedio</li>
+                <li>React Native - Intermedio</li>
+              </ul>
             </div>
             <div>
               <h3 className="text-xl font-bold mb-4">Backend y DevOps</h3>
-              <div className="space-y-4">
-                <div>
-                  <label className="block text-gray-700 font-bold">Java</label>
-                  <div className="bg-gray-300 rounded-full h-4 overflow-hidden">
-                    <div className="bg-blue-500 h-4 rounded-full" style={{ width: '80%' }}></div>
-                  </div>
-                </div>
-                <div>
-                  <label className="block text-gray-700 font-bold">Spring Boot</label>
-                  <div className="bg-gray-300 rounded-full h-4 overflow-hidden">
-                    <div className="bg-blue-500 h-4 rounded-full" style={{ width: '75%' }}></div>
-                  </div>
-                </div>
-                <div>
-                  <label className="block text-gray-700 font-bold">Node.js</label>
-                  <div className="bg-gray-300 rounded-full h-4 overflow-hidden">
-                    <div className="bg-blue-500 h-4 rounded-full" style={{ width: '70%' }}></div>
-                  </div>
-                </div>
-                <div>
-                  <label className="block text-gray-700 font-bold">Docker</label>
-                  <div className="bg-gray-300 rounded-full h-4 overflow-hidden">
-                    <div className="bg-blue-500 h-4 rounded-full" style={{ width: '70%' }}></div>
-                  </div>
-                </div>
-                <div>
-                  <label className="block text-gray-700 font-bold">AWS</label>
-                  <div className="bg-gray-300 rounded-full h-4 overflow-hidden">
-                    <div className="bg-blue-500 h-4 rounded-full" style={{ width: '60%' }}></div>
-                  </div>
-                </div>
-              </div>
+              <ul className="list-disc list-inside text-gray-600">
+                <li>Java - Intermedio</li>
+                <li>Spring Boot - Intermedio</li>
+                <li>Node.js - Intermedio</li>
+                <li>Docker - Intermedio</li>
+                <li>AWS - Básico</li>
+              </ul>
             </div>
             <div>
               <h3 className="text-xl font-bold mb-4">Bases de Datos</h3>
-              <div className="space-y-4">
-                <div>
-                  <label className="block text-gray-700 font-bold">PostgreSQL</label>
-                  <div className="bg-gray-300 rounded-full h-4 overflow-hidden">
-                    <div className="bg-blue-500 h-4 rounded-full" style={{ width: '80%' }}></div>
-                  </div>
-                </div>
-                <div>
-                  <label className="block text-gray-700 font-bold">MongoDB</label>
-                  <div className="bg-gray-300 rounded-full h-4 overflow-hidden">
-                    <div className="bg-blue-500 h-4 rounded-full" style={{ width: '75%' }}></div>
-                  </div>
-                </div>
-                <div>
-                  <label className="block text-gray-700 font-bold">SQL Server</label>
-                  <div className="bg-gray-300 rounded-full h-4 overflow-hidden">
-                    <div className="bg-blue-500 h-4 rounded-full" style={{ width: '75%' }}></div>
-                  </div>
-                </div>
-                <div>
-                  <label className="block text-gray-700 font-bold">Oracle</label>
-                  <div className="bg-gray-300 rounded-full h-4 overflow-hidden">
-                    <div className="bg-blue-500 h-4 rounded-full" style={{ width: '70%' }}></div>
-                  </div>
-                </div>
-              </div>
+              <ul className="list-disc list-inside text-gray-600">
+                <li>PostgreSQL - Intermedio</li>
+                <li>MongoDB - Intermedio</li>
+                <li>SQL Server - Intermedio</li>
+                <li>Oracle - Intermedio</li>
+              </ul>
             </div>
             <div>
               <h3 className="text-xl font-bold mb-4">Otras Habilidades</h3>
-              <div className="space-y-4">
-                <div>
-                  <label className="block text-gray-700 font-bold">GIT</label>
-                  <div className="bg-gray-300 rounded-full h-4 overflow-hidden">
-                    <div className="bg-blue-500 h-4 rounded-full" style={{ width: '80%' }}></div>
-                  </div>
-                </div>
-                <div>
-                  <label className="block text-gray-700 font-bold">Jenkins</label>
-                  <div className="bg-gray-300 rounded-full h-4 overflow-hidden">
-                    <div className="bg-blue-500 h-4 rounded-full" style={{ width: '75%' }}></div>
-                  </div>
-                </div>
-                <div>
-                  <label className="block text-gray-700 font-bold">Liferay</label>
-                  <div className="bg-gray-300 rounded-full h-4 overflow-hidden">
-                    <div className="bg-blue-500 h-4 rounded-full" style={{ width: '75%' }}></div>
-                  </div>
-                </div>
-                <div>
-                  <label className="block text-gray-700 font-bold">Azure</label>
-                  <div className="bg-gray-300 rounded-full h-4 overflow-hidden">
-                    <div className="bg-blue-500 h-4 rounded-full" style={{ width: '70%' }}></div>
-                  </div>
-                </div>
-                <div>
-                  <label className="block text-gray-700 font-bold">Python</label>
-                  <div className="bg-gray-300 rounded-full h-4 overflow-hidden">
-                    <div className="bg-blue-500 h-4 rounded-full" style={{ width: '70%' }}></div>
-                  </div>
-                </div>
-              </div>
+              <ul className="list-disc list-inside text-gray-600">
+                <li>GIT - Intermedio</li>
+                <li>Jenkins - Intermedio</li>
+                <li>Liferay - Intermedio</li>
+                <li>Azure - Intermedio</li>
+                <li>Python - Intermedio</li>
+              </ul>
             </div>
           </div>
         </div>
