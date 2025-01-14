@@ -125,7 +125,7 @@ export default function App() {
                 <li>Spring Boot - Intermedio</li>
                 <li>Node.js - Intermedio</li>
                 <li>Docker - Intermedio</li>
-                <li>AWS - Básico</li>
+                <li>AWS - Intermedio</li>
               </ul>
             </div>
             <div>
