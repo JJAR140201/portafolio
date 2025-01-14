@@ -246,7 +246,7 @@ export default function App() {
         <div className="container mx-auto">
           <h2 className="text-3xl font-bold text-center mb-10">Logros</h2>
           <p className="text-gray-600 max-w-3xl mx-auto text-center">
-            Como desarrollador FullStack Semisenior, he optimizado aplicaciones mediante TypeScript, mejorando su velocidad de carga en un 30% y garantizando escalabilidad. Diseñé sistemas fullstack con Angular y Spring Boot, automatizando procesos clave en un 40%, y lideré la migración de bases de datos (Oracle a PostgreSQL, MongoDB), reduciendo costos operativos en un 20%. Implementé microservicios con Java y Spring Boot, incrementando la capacidad de respuesta en entornos de alta demanda, y establecí estándares de calidad en Liferay, logrando una reducción del 25% en errores. Estas experiencias reflejan mi compromiso con soluciones robustas y escalables que aportan valor a las organizaciones.
+            Como desarrollador FullStack Senior, he optimizado aplicaciones mediante TypeScript, mejorando su velocidad de carga en un 30% y garantizando escalabilidad. Diseñé sistemas fullstack con Angular y Spring Boot, automatizando procesos clave en un 40%, y lideré la migración de bases de datos (Oracle a PostgreSQL, MongoDB), reduciendo costos operativos en un 20%. Implementé microservicios con Java y Spring Boot, incrementando la capacidad de respuesta en entornos de alta demanda, y establecí estándares de calidad en Liferay, logrando una reducción del 25% en errores. Estas experiencias reflejan mi compromiso con soluciones robustas y escalables que aportan valor a las organizaciones.
           </p>
         </div>
       </section>
