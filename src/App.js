@@ -68,7 +68,15 @@ export default function App() {
                 - Nube: AWS
               </p>
             </div>
-        
+            <div className="bg-white shadow-lg rounded-lg p-6">
+              <h3 className="text-xl font-bold mb-2">SoinsKarisma</h3>
+              <p className="text-gray-600">
+                Agosto 2023 - Octubre 2023<br />
+                <strong>Desarrollador Frontend - Semisenior</strong><br />
+                - Frontend: React JS, Redux, Node JS<br />
+                - Diseño: Figma
+              </p>
+            </div>
             <div className="bg-white shadow-lg rounded-lg p-6">
               <h3 className="text-xl font-bold mb-2">Stefanini Group</h3>
               <p className="text-gray-600">
